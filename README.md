@@ -47,7 +47,7 @@ Detailed performance scores, per entity class, in terms of Precision, Recall, an
 </td></tr> </table>
 
 
-Detailed Results per datasets, including Precision, Recall and F1-score for each class, can be found in the [Results.md](https://github.com/panoskosmo/LongSeq_/blob/main/Results.md). 
+Detailed Results per datasets, including Precision, Recall and F1-score for each class, can be found in the [Results.md](https://github.com/AUTH-MINT/LongSeq/blob/main/Results.md). 
 
 # Citation
 The accompanying paper has been accepted and is set to appear in IFIP International Conference on Artificial Intelligence Applications and Innovations 2021.
