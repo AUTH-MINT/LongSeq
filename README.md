@@ -8,7 +8,7 @@ LongSeq is a state-of-the-art Evidence-Based Medicine (EBM) and Biomedical Named
 
 # LongSeq models architecture
 
-<img src="https://github.com/panoskosmo/LongSeq_/blob/main/Mobel_Architecture.png" width="800">
+<img src="https://github.com/AUTH-MINT/LongSeq/blob/main/Mobel_Architecture.png" width="800">
 
 # Requirements
 With Python 3.6 or higher, use the requirements file provided as follows: 
