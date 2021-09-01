@@ -85,7 +85,7 @@ def fname_to_pmid(fname):
     return pmid
 
 def preprocess_data():
-    ebm_nlp = '../../ebm_nlp_2_00/'
+    ebm_nlp = 'ebm_nlp_2_00'
 
     id_to_tokens = {}
     id_to_pos = {}
