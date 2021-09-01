@@ -1,6 +1,6 @@
 # LongSeq: Improved Biomedical Entity Recognition via longer context modeling
 
-This repository hosts the implementation described in our paper [Improved Biomedical Entity Recognition via longer context modeling]().
+This repository hosts the implementation described in our paper [Improved Biomedical Entity Recognition via longer context modeling](https://www.springerprofessional.de/en/improved-biomedical-entity-recognition-via-longer-context-modeli/19280400).
 
 # Introduction
 LongSeq is a state-of-the-art Evidence-Based Medicine (EBM) and Biomedical Named Entity Recognition (BioNER) system. Our model is end-to-end and capable of efficiently model-ing significantly longer sequences than previous models, benefiting frominter-sentence dependencies .
