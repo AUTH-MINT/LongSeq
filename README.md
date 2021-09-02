@@ -54,7 +54,8 @@ Detailed Results per datasets, including Precision, Recall and F1-score for each
 
 # Citation
 The accompanying paper has been accepted and is set to appear in IFIP International Conference on Artificial Intelligence Applications and Innovations 2021.
-'''
+
+```
 @inproceedings{stylianou2021improved,
   title={Improved Biomedical Entity Recognition via Longer Context Modeling},
   author={Stylianou, Nikolaos and Kosmoliaptsis, Panagiotis and Vlahavas, Ioannis},
@@ -63,4 +64,4 @@ The accompanying paper has been accepted and is set to appear in IFIP Internatio
   year={2021},
   organization={Springer}
 }
-'''
+```
