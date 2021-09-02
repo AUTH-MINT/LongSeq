@@ -21,7 +21,7 @@ You will also need to download, and format accordingly, the [EBM-NLP corpus](htt
  scripts ``build_data.py`` and ``build_data_abstracts.py``. The preprocessed EBM data are provided in ``data/``.
 
 # Google Colab Notebook
-There is a [Google Colab Notebook for LonSeq](https://colab.research.google.com/drive/19zjqXnEcHWg3SxLdeL332FT5ftEDhgHC) that downloads the necessary files, EBM-NLP dataset, train and test LongSeq. 
+There is a [Google Colab Notebook for LongSeq](https://colab.research.google.com/drive/19zjqXnEcHWg3SxLdeL332FT5ftEDhgHC) that downloads the necessary files, EBM-NLP dataset, train and test LongSeq. 
 
 # Results 
 Detailed performance scores, per entity class, in terms of Precision, Recall, and F1 on all datasets.
