@@ -23,9 +23,6 @@ You will also need to download, and format accordingly, the [EBM-NLP corpus](htt
 # Google Colab Notebook
 There is a [Google Colab Notebook for LongSeq](https://colab.research.google.com/drive/19zjqXnEcHWg3SxLdeL332FT5ftEDhgHC) that downloads the necessary files, EBM-NLP dataset, train and test LongSeq. 
 
-launch_buttons:
-  colab_url: "https://colab.research.google.com/drive/19zjqXnEcHWg3SxLdeL332FT5ftEDhgHC" 
-
 # Results 
 Detailed performance scores, per entity class, in terms of Precision, Recall, and F1 on all datasets.
 
