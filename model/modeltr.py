@@ -56,7 +56,7 @@ class EntityModel(nn.Module):
         # self.reformer = Reformer(dim=self.d_model, max_seq_len=self.max_len, depth=self.N, heads=self.h, lsh_dropout=0.1, causal=True)
 
         ##Longformer Layers
-        # self.longformer = Longformer(dim=self.d_model, depth=self.N, heads=self.h,  dropout=0, attention_window=self.N*[256], attention_dilation=self.N*[1], autoregressive=False, attention_mode='sliding_chunks')
+        self.longformer = Longformer(dim=self.d_model, depth=self.N, heads=self.h,  dropout=0, attention_window=self.N*[256], attention_dilation=self.N*[1], autoregressive=False, attention_mode='sliding_chunks')
 
         ##TransformerXL Layers
 
@@ -87,13 +87,13 @@ class EntityModel(nn.Module):
         #for transformers
         # x, _ = self.transformerXL(x)
 
-        x = self.vanilla(x, None)
+        # x = self.vanilla(x, None)
 
         # x = self.linformer(x)
 
         # x = self.reformer(x)
 
-        # x = self.longformer(x)
+        x = self.longformer(x)
 
         ##Boom Here
         # x = self.boom(x)

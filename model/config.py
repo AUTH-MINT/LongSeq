@@ -24,9 +24,9 @@ class Config():
     filename_test_abs = os.path.join(cwd,  "data/gold_abstracts.txt")
     filename_train_abs = os.path.join(cwd, "data/train_abstracts.txt")
 
-    use_sen = True # If True use sentences else use whole abstract
+    use_sen = False # If True use sentences else use whole abstract
 
-    max_iter = 5 # if not None, max number of examples in Dataset
+    max_iter = None # if not None, max number of examples in Dataset
 
     # Bert Model Config
     BASE_MODEL_PATH = "../Bert"
@@ -56,7 +56,7 @@ class Config():
 
     # training
     MAX_LEN = 512
-    nepochs          = 1
+    nepochs          = 6
     bert_droppout = 0.3
     dropout          = 0.5
     train_batch_size = 4
@@ -73,8 +73,8 @@ class Config():
     hidden_size = 768
 
     # transformers high parameters
-    N = 6
-    h = 6
+    N = 4
+    h = 4
     d_model = 768
     d_ff = 2048
     trans_dropout = 0.1
